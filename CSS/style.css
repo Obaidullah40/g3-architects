@@ -109,6 +109,20 @@ main, .nevbar,
       color: #FF900E;
 }
 
+/* love & enjoy related style */
+#enjoy-title-color{
+      border-left:5px solid #FF900E;
+      padding-left: 21px;
+}
+.enjoy-card-title{
+      font-weight: 600;
+      font-size: 1.25rem;
+}
+.enjoy{
+      padding: 30px;
+      box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
 /* some facts related style */
 .facts-container{
       display: grid;
@@ -149,10 +163,28 @@ main, .nevbar,
 .sponspors-logo{
       display: grid;
       grid-template-columns: repeat(5, 1fr);
+      margin-top: 50px;
 }
 .sponspor-img{
       filter: grayscale(100%);
+      height: 50px;
+      
 }
+
+/* footer related style */
+footer{
+      background-color: #FFF4E7;
+      font-size: 1.25rem;
+      text-align: center;
+      max-width: 1440px;
+      height: 100px;
+      margin: 130px auto;
+}
+footer p{
+      padding-top: 35px;
+}
+
+
 
 /*small size device respponsive media query */
 @media screen and (max-width: 576px) {
