@@ -35,6 +35,9 @@ main > section{
       font-weight: 700;
       font-size: 2.82rem;
 }
+.text-container{
+      max-width: 540px;
+}
 
 /* navber related styles */
 .nevbar{
@@ -138,17 +141,31 @@ main, .nevbar,
       font-size: 1.2rem;
 }
 
+/* Our Sponspors related style */
+.sponsors-info{
+      margin: 0 auto;
+      text-align: center;
+}
+.sponspors-logo{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+}
+.sponspor-img{
+      filter: grayscale(100%);
+}
+
 /*small size device respponsive media query */
 @media screen and (max-width: 576px) {
       .nevbar, .teams{
             flex-direction: column;
       }
-      .team-img-container, .facts-container{
+      .team-img-container, .facts-container,
+      .sponspors-logo{
             grid-template-columns: repeat(1, 1fr);
             justify-items: center;
             gap: 24px;
       }
-      .our-features, .facts-text{
+      .our-features, .text-container{
             margin-left: 20px;
       }
 }
@@ -159,10 +176,10 @@ main, .nevbar,
       .teams{
             flex-direction: column;
       }
-      .our-features, .facts-text{
+      .our-features, .text-container{
             margin: 50px auto;
       }
-      .facts-container{
+      .facts-container, .sponspors-logo{
             grid-template-columns: repeat(2, 1fr);
             justify-items: center;
             gap: 24px;
