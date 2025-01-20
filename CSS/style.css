@@ -110,6 +110,9 @@ main, .nevbar,
 }
 
 /* love & enjoy related style */
+.enjoy{
+      gap: 140px;
+}
 #enjoy-title-color{
       border-left:5px solid #FF900E;
       padding-left: 21px;
@@ -117,10 +120,14 @@ main, .nevbar,
 .enjoy-card-title{
       font-weight: 600;
       font-size: 1.25rem;
+      margin-top: 0px;
+      margin-bottom: 0px;
 }
-.enjoy{
+.enjoy-card{
       padding: 30px;
       box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+      margin-bottom: 20px;
+      border-radius: 8px;
 }
 
 /* some facts related style */
