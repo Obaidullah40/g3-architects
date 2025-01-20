@@ -129,6 +129,20 @@ main, .nevbar,
       margin-bottom: 20px;
       border-radius: 8px;
 }
+#experience-year{
+      font-size: 4rem;
+      font-weight: 700;
+}
+#experience-badge{
+      padding: 45px 42px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-top: -120px;
+      margin-left: -92px;
+}
+.enjoy-img img{
+      width: 100%;
+}
 
 /* some facts related style */
 .facts-container{
@@ -195,7 +209,7 @@ footer p{
 
 /*small size device respponsive media query */
 @media screen and (max-width: 576px) {
-      .nevbar, .teams{
+      .nevbar, .teams, .enjoy{
             flex-direction: column;
       }
       .team-img-container, .facts-container,
@@ -207,12 +221,16 @@ footer p{
       .our-features, .text-container{
             margin-left: 20px;
       }
+      #experience-badge{
+            margin-top: 20px;
+            margin-left: 20px;
+      }
 }
 
 
 /*small size device respponsive media query */
 @media screen and (min-width:576px) and (max-width: 992px){
-      .teams{
+      .teams, .enjoy{
             flex-direction: column;
       }
       .our-features, .text-container{
@@ -222,5 +240,9 @@ footer p{
             grid-template-columns: repeat(2, 1fr);
             justify-items: center;
             gap: 24px;
+      }
+      #experience-badge{
+            margin-top: 20px;
+            margin-left: 20px;
       }
 }
